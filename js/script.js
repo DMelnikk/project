@@ -69,16 +69,34 @@
 // console.log('arr' + " - object");
 // console.log(4 + " - object");
 
-
-let incr = 10,
-    decr = 10;
+//
+// let incr = 10,
+//     decr = 10;
 // ++incr;
 // --decr;
 
-console.log(++incr);
-console.log(--decr);
+// console.log(++incr);
+// console.log(--decr);
+//
+// console.log(5%2);
+// const num = true;
+// const second = false;
+// console.log(num ||  !second);
 
-console.log(5%2);
-const num = true;
-const second = false;
-console.log(num ||  !second);
+
+const numberOfFilms = +prompt('How many movies did you watch?','');
+// console.log(numberOfFilms);
+
+const personalMovieDB = {
+  'count': numberOfFilms,
+  'movies':{},
+  'actors':{},
+  'genres':[],
+    'private':false,
+};
+
+const firstQuestion = prompt('What was the last movie you watch?'), secondQuestion = prompt('How would you rate him?');
+
+personalMovieDB.movies[firstQuestion] = secondQuestion;
+console.log(personalMovieDB);
+
