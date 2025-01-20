@@ -84,19 +84,50 @@
 // console.log(num ||  !second);
 
 
-const numberOfFilms = +prompt('How many movies did you watch?','');
-// console.log(numberOfFilms);
+// const numberOfFilms = +prompt('How many movies did you watch?','');
+// // console.log(numberOfFilms);
+//
+// const personalMovieDB = {
+//   'count': numberOfFilms,
+//   'movies':{},
+//   'actors':{},
+//   'genres':[],
+//     'private':false,
+// };
+//
+// const firstQuestion = prompt('What was the last movie you watch?'), secondQuestion = prompt('How would you rate him?');
+//
+// personalMovieDB.movies[firstQuestion] = secondQuestion;
+// console.log(personalMovieDB);
 
-const personalMovieDB = {
-  'count': numberOfFilms,
-  'movies':{},
-  'actors':{},
-  'genres':[],
-    'private':false,
-};
 
-const firstQuestion = prompt('What was the last movie you watch?'), secondQuestion = prompt('How would you rate him?');
+// if (5 === 4) {
+//     console.log('OK!');
+// } else {
+//     console.log('Not OKAY');
+// }
 
-personalMovieDB.movies[firstQuestion] = secondQuestion;
-console.log(personalMovieDB);
+// const num = 50;
+// (num === 45) ? console.log('OK') : console.log('Not Ok')
+
+
+
+const num = 50;
+const sec = 50;
+
+switch (num) {
+    case 49:
+        console.log('Not correct');
+        break;
+    case sec:
+        console.log('Correct');
+        break;
+    default:
+        console.log('Not today');
+        break;
+}
+
+
+
+
 
