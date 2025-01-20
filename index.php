@@ -9,7 +9,8 @@
 </head>
 <body>
   <p>Hello , how are you</p>
-  <h1>This is the way</h1>
+  <h1>This is the way
+  </h1>
   <h2>From project_2</h2>
 
   <script src="js/script.js"></script>
